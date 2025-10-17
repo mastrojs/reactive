@@ -1,0 +1,18 @@
+{
+  "name": "@mastrojs/reactive",
+  "version": "0.4.0",
+  "fmt": {
+    "lineWidth": 90
+  },
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "dom.asynciterable", "deno.ns"]
+  },
+  "exports": {
+    ".": "./reactive.ts"
+  },
+  "imports": {
+    "@mastrojs/mastro": "jsr:@mastrojs/mastro@0",
+    "@maverick-js/signals": "npm:@maverick-js/signals@^6.0.0"
+  },
+  "lock": false
+}
