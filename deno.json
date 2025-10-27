@@ -1,6 +1,6 @@
 {
   "name": "@mastrojs/reactive",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "fmt": {
     "lineWidth": 90
   },
@@ -11,7 +11,7 @@
     ".": "./reactive.ts"
   },
   "imports": {
-    "@mastrojs/mastro": "jsr:@mastrojs/mastro@0",
+    "@mastrojs/mastro": "jsr:@mastrojs/mastro@^0.4.6",
     "@maverick-js/signals": "npm:@maverick-js/signals@^6.0.0"
   },
   "lock": false

@@ -26,7 +26,7 @@ Server-side part is plain HTML:
 Client-side part is plain JavaScript:
 
 ```js
-import { ReactiveElement, signal } from "https://esm.sh/jsr/@mastrojs/mastro@0.3.2/reactive?bundle";
+import { ReactiveElement, signal } from "https://esm.sh/jsr/@mastrojs/reactive@0.4.1?bundle";
 
 customElements.define("my-counter", class extends ReactiveElement {
   count = signal(0)

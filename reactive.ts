@@ -4,8 +4,8 @@
  * @module
  */
 
+import { renderToString } from '@mastrojs/mastro/html'
 import * as signals from '@maverick-js/signals'
-import { renderToString } from '@mastrojs/mastro'
 import { parseArgs, parseBind } from "./reactive.util.ts";
 
 export {
@@ -15,7 +15,7 @@ export {
   renderToStream,
   renderToString,
   unsafeInnerHtml,
-} from '@mastrojs/mastro'
+} from '@mastrojs/mastro/html'
 
 /**
  * Creates a new signal whose value is computed and returned by the given function.
