@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "start": "deno task build && deno serve --watch=. --allow-read --allow-env jsr:@mastrojs/mastro/server",
+    "build": "cd .. && deno bundle reactive.ts -o bench/routes/reactive.js"
+  }
+}

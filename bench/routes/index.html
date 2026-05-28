@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Counter</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "@mastrojs/reactive": "/reactive.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <my-counter>
+      Count is <span data-bind="count">0</span>
+      <button data-onclick="inc">+</button>
+    </my-counter>
+
+    <script type="module">
+      import { ReactiveElement, signal } from "@mastrojs/reactive"
+
+      customElements.define("my-counter", class extends ReactiveElement {
+        count = signal(0)
+        inc () {
+          this.count.set(c => c + 1)
+        }
+      })
+    </script>
+  </body>
+</html>
