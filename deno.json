@@ -1,17 +1,8 @@
 {
   "name": "@mastrojs/reactive",
-  "version": "0.4.1",
-  "fmt": {
-    "lineWidth": 90
-  },
-  "compilerOptions": {
-    "lib": ["dom"]
-  },
+  "version": "0.4.2",
   "exports": {
-    ".": "./reactive.ts"
-  },
-  "imports": {
-    "@mastrojs/mastro": "jsr:@mastrojs/mastro@^0.8.6",
-    "@maverick-js/signals": "npm:@maverick-js/signals@^6.0.0"
+    ".": "./index.ts"
   }
 }
+
